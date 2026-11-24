@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Kina Karité gestock</string>
+    <string name="app_subtitle">Produits naturels • Gestion &amp; Bénéfices</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Tableau de bord</string>
+    <string name="nav_products">Produits</string>
+    <string name="nav_operations">Opérations</string>
+    <string name="nav_history">Historique</string>
+
+    <!-- KPI Labels -->
+    <string name="kpi_stock_value">Valeur du stock</string>
+    <string name="kpi_stock_value_sub">Au prix de revient</string>
+    <string name="kpi_revenue">Chiffre d\'affaires</string>
+    <string name="kpi_revenue_sub">Total des ventes</string>
+    <string name="kpi_net_profit">Bénéfice net total</string>
+    <string name="kpi_net_profit_sub">Marge réalisée</string>
+    <string name="kpi_low_stock">Alertes stock bas</string>
+    <string name="kpi_low_stock_sub">Produits à réapprovisionner</string>
+
+    <!-- Actions -->
+    <string name="action_new_sale">Nouvelle vente</string>
+    <string name="action_new_restock">Nouvel approvisionnement</string>
+    <string name="action_add_product">Nouveau produit</string>
+    <string name="action_edit_product">Modifier le produit</string>
+    <string name="action_delete">Supprimer</string>
+    <string name="action_save">Enregistrer</string>
+    <string name="action_cancel">Annuler</string>
+    <string name="action_export_csv">Exporter en CSV</string>
+    <string name="action_confirm_sale">Valider la vente</string>
+    <string name="action_confirm_restock">Valider l\'approvisionnement</string>
+
+    <!-- Status Badges -->
+    <string name="status_in_stock">En stock</string>
+    <string name="status_low_stock">Stock bas</string>
+    <string name="status_out_of_stock">Rupture</string>
+
+    <!-- Filters & Search -->
+    <string name="search_products_hint">Rechercher un produit…</string>
+    <string name="search_history_hint">Rechercher par produit ou note…</string>
+    <string name="filter_all">Tous</string>
+    <string name="filter_sales">Ventes</string>
+    <string name="filter_restocks">Entrées</string>
+    <string name="filter_low_stock_only">Stock bas uniquement</string>
+
+    <!-- Table Headers -->
+    <string name="table_title_performance">Performance par produit</string>
+    <string name="col_product">Produit</string>
+    <string name="col_stock">Stock restant</string>
+    <string name="col_cost_price">Prix de revient</string>
+    <string name="col_sell_price">Prix de vente</string>
+    <string name="col_unit_profit">Bénéfice / unité</string>
+    <string name="col_total_profit">Bénéfice généré</string>
+
+    <!-- Form Labels -->
+    <string name="label_product_name">Nom du produit</string>
+    <string name="label_unit">Unité de mesure</string>
+    <string name="label_custom_unit">Unité personnalisée</string>
+    <string name="label_current_stock">Quantité en stock</string>
+    <string name="label_alert_threshold">Seuil d\'alerte stock bas</string>
+    <string name="label_purchase_price">Prix d\'achat unitaire (FCFA)</string>
+    <string name="label_ancillary_fees">Frais annexes / unité (emballage, transport)</string>
+    <string name="label_selling_price">Prix de vente unitaire (FCFA)</string>
+    <string name="label_quantity_sold">Quantité vendue</string>
+    <string name="label_quantity_added">Quantité reçue</string>
+    <string name="label_note_optional">Note ou client / fournisseur (optionnel)</string>
+
+    <!-- Messages & Errors -->
+    <string name="error_empty_name">Veuillez saisir le nom du produit.</string>
+    <string name="error_empty_unit">Veuillez choisir ou saisir une unité.</string>
+    <string name="error_invalid_number">Veuillez saisir des montants et quantités valides.</string>
+    <string name="error_quantity_positive">La quantité doit être supérieure à zéro.</string>
+    <string name="error_select_product">Veuillez sélectionner un produit.</string>
+    <string name="msg_product_saved">Produit enregistré avec succès.</string>
+    <string name="msg_product_deleted">Produit supprimé du catalogue.</string>
+    <string name="msg_sale_recorded">Vente enregistrée et stock mis à jour.</string>
+    <string name="msg_restock_recorded">Approvisionnement enregistré et CMP recalculé.</string>
+    <string name="msg_csv_exported">Export CSV enregistré avec succès.</string>
+    <string name="msg_csv_export_error">Impossible d\'exporter le fichier CSV.</string>
+    <string name="empty_products_title">Aucun produit trouvé</string>
+    <string name="empty_products_desc">Ajoutez un nouveau produit naturel ou modifiez votre recherche.</string>
+    <string name="empty_history_title">Aucun mouvement enregistré</string>
+    <string name="empty_history_desc">Vos ventes et approvisionnements apparaîtront ici automatiquement.</string>
+</resources>
